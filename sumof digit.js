@@ -4,4 +4,4 @@ function sumofdigit(n){
         let last = n % 10;
         sum += last;
      }
-}
+}  console.log();
