@@ -107,14 +107,11 @@ unaryFunction(10);
 function one(){
     var a = 0;
 
-    function two(){
-        console.log(a);
-
-    }
+    const two = ()=> console.log(a);
     return two;
 }
 
-const result =  one();
+const result =  one();// ()=>console.log(a);
 
 console.log(result);
 console.log(result());
